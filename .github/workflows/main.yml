@@ -15,7 +15,7 @@ jobs:
       - name: Setup packages
         run: |
           sudo apt-get update -y
-          sudo apt-get -y install build-essential coreutils wget aria2c
+          sudo apt-get -y install build-essential coreutils wget aria2
           
       - name: NDK
         uses: nttld/setup-ndk@v1.5.0
